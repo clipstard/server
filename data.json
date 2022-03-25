@@ -1,0 +1,877 @@
+{
+    "profession": [
+        {
+            "id": 1,
+            "label": "accountant"
+        },
+        {
+            "id": 2,
+            "label": "actor"
+        },
+        {
+            "id": 3,
+            "label": "actress"
+        },
+        {
+            "id": 4,
+            "label": "air traffic controller"
+        },
+        {
+            "id": 5,
+            "label": "architect"
+        },
+        {
+            "id": 6,
+            "label": "artist"
+        },
+        {
+            "id": 7,
+            "label": "attorney"
+        },
+        {
+            "id": 8,
+            "label": "banker"
+        },
+        {
+            "id": 9,
+            "label": "bartender"
+        },
+        {
+            "id": 10,
+            "label": "barber"
+        },
+        {
+            "id": 11,
+            "label": "bookkeeper"
+        },
+        {
+            "id": 12,
+            "label": "builder"
+        },
+        {
+            "id": 13,
+            "label": "businessman"
+        },
+        {
+            "id": 14,
+            "label": "businesswoman"
+        },
+        {
+            "id": 15,
+            "label": "businessperson"
+        },
+        {
+            "id": 16,
+            "label": "butcher"
+        },
+        {
+            "id": 17,
+            "label": "carpenter"
+        },
+        {
+            "id": 18,
+            "label": "cashier"
+        },
+        {
+            "id": 19,
+            "label": "chef"
+        },
+        {
+            "id": 20,
+            "label": "coach"
+        },
+        {
+            "id": 21,
+            "label": "dental hygienist"
+        },
+        {
+            "id": 22,
+            "label": "dentist"
+        },
+        {
+            "id": 23,
+            "label": "designer"
+        },
+        {
+            "id": 24,
+            "label": "developer"
+        },
+        {
+            "id": 25,
+            "label": "dietician"
+        },
+        {
+            "id": 26,
+            "label": "doctor"
+        },
+        {
+            "id": 27,
+            "label": "economist"
+        },
+        {
+            "id": 28,
+            "label": "editor"
+        },
+        {
+            "id": 29,
+            "label": "electrician"
+        },
+        {
+            "id": 30,
+            "label": "engineer"
+        },
+        {
+            "id": 31,
+            "label": "farmer"
+        },
+        {
+            "id": 32,
+            "label": "filmmaker"
+        },
+        {
+            "id": 33,
+            "label": "fisherman"
+        },
+        {
+            "id": 34,
+            "label": "flight attendant"
+        },
+        {
+            "id": 35,
+            "label": "jeweler"
+        },
+        {
+            "id": 36,
+            "label": "judge"
+        },
+        {
+            "id": 37,
+            "label": "lawyer"
+        },
+        {
+            "id": 38,
+            "label": "mechanic"
+        },
+        {
+            "id": 39,
+            "label": "musician"
+        },
+        {
+            "id": 40,
+            "label": "nutritionist"
+        },
+        {
+            "id": 41,
+            "label": "nurse"
+        },
+        {
+            "id": 42,
+            "label": "optician"
+        },
+        {
+            "id": 43,
+            "label": "painter"
+        },
+        {
+            "id": 44,
+            "label": "pharmacist"
+        },
+        {
+            "id": 45,
+            "label": "photographer"
+        },
+        {
+            "id": 46,
+            "label": "physician"
+        },
+        {
+            "id": 47,
+            "label": "physician's assistant"
+        },
+        {
+            "id": 48,
+            "label": "pilot"
+        },
+        {
+            "id": 49,
+            "label": "plumber"
+        },
+        {
+            "id": 50,
+            "label": "police officer"
+        },
+        {
+            "id": 51,
+            "label": "politician"
+        },
+        {
+            "id": 52,
+            "label": "professor"
+        },
+        {
+            "id": 53,
+            "label": "programmer"
+        },
+        {
+            "id": 54,
+            "label": "psychologist"
+        },
+        {
+            "id": 55,
+            "label": "receptionist"
+        },
+        {
+            "id": 56,
+            "label": "salesman"
+        },
+        {
+            "id": 57,
+            "label": "salesperson"
+        },
+        {
+            "id": 58,
+            "label": "saleswoman"
+        },
+        {
+            "id": 59,
+            "label": "secretary"
+        },
+        {
+            "id": 60,
+            "label": "singer"
+        },
+        {
+            "id": 61,
+            "label": "surgeon"
+        },
+        {
+            "id": 62,
+            "label": "teacher"
+        },
+        {
+            "id": 63,
+            "label": "therapist"
+        },
+        {
+            "id": 64,
+            "label": "translator"
+        },
+        {
+            "id": 65,
+            "label": "translator"
+        },
+        {
+            "id": 66,
+            "label": "undertaker"
+        },
+        {
+            "id": 67,
+            "label": "veterinarian"
+        },
+        {
+            "id": 68,
+            "label": "videographer"
+        },
+        {
+            "id": 69,
+            "label": "waiter"
+        },
+        {
+            "id": 70,
+            "label": "waitress"
+        },
+        {
+            "id": 71,
+            "label": "writer"
+        }
+    ],
+    "education_type": [
+        {
+            "id": 1,
+            "education": "Primary education"
+        },
+        {
+            "id": 2,
+            "education": "Lower secondary education"
+        },
+        {
+            "id": 3,
+            "education": "Upper secondary education"
+        },
+        {
+            "id": 4,
+            "education": "Post-secondary non-tertiary education"
+        },
+        {
+            "id": 5,
+            "education": "Short-cycle tertiary education"
+        },
+        {
+            "id": 6,
+            "education": "Bachelor's or equivalent"
+        },
+        {
+            "id": 7,
+            "education": "Master's or equivalent"
+        },
+        {
+            "id": 8,
+            "education": "Doctorate or equivalent"
+        }
+    ],
+    "job_name": [
+        {
+            "id": 1,
+            "name": "teacher"
+        },
+        {
+            "id": 2,
+            "name": "doctor"
+        },
+        {
+            "id": 3,
+            "name": "police officer"
+        },
+        {
+            "id": 4,
+            "name": "chef / cook"
+        },
+        {
+            "id": 5,
+            "name": "firefighter"
+        },
+        {
+            "id": 6,
+            "name": "bus driver"
+        },
+        {
+            "id": 7,
+            "name": "scientist"
+        },
+        {
+            "id": 8,
+            "name": "post man"
+        },
+        {
+            "id": 9,
+            "name": "vet"
+        },
+        {
+            "id": 10,
+            "name": "artist"
+        },
+        {
+            "id": 11,
+            "name": "pilot"
+        },
+        {
+            "id": 12,
+            "name": "nurse"
+        },
+        {
+            "id": 13,
+            "name": "baker"
+        },
+        {
+            "id": 14,
+            "name": "builder"
+        },
+        {
+            "id": 15,
+            "name": "judge"
+        },
+        {
+            "id": 16,
+            "name": "farmer"
+        },
+        {
+            "id": 17,
+            "name": "waiter"
+        },
+        {
+            "id": 18,
+            "name": "waitress"
+        },
+        {
+            "id": 19,
+            "name": "butcher"
+        },
+        {
+            "id": 20,
+            "name": "cashier"
+        },
+        {
+            "id": 21,
+            "name": "astronaut"
+        },
+        {
+            "id": 22,
+            "name": "football player"
+        },
+        {
+            "id": 23,
+            "name": "car mechanic"
+        },
+        {
+            "id": 24,
+            "name": "flight attendant"
+        },
+        {
+            "id": 25,
+            "name": "musician"
+        },
+        {
+            "id": 26,
+            "name": "taxi driver"
+        },
+        {
+            "id": 27,
+            "name": "barber"
+        },
+        {
+            "id": 28,
+            "name": "hairdresser"
+        },
+        {
+            "id": 29,
+            "name": "pharmacist"
+        },
+        {
+            "id": 30,
+            "name": "business man"
+        },
+        {
+            "id": 31,
+            "name": "office worker"
+        },
+        {
+            "id": 32,
+            "name": "maid"
+        },
+        {
+            "id": 33,
+            "name": "tour guide"
+        },
+        {
+            "id": 34,
+            "name": "soldier"
+        },
+        {
+            "id": 35,
+            "name": "sailor"
+        },
+        {
+            "id": 36,
+            "name": "fighter pilot"
+        },
+        {
+            "id": 37,
+            "name": "miner"
+        },
+        {
+            "id": 38,
+            "name": "plumber"
+        },
+        {
+            "id": 39,
+            "name": "photographer"
+        },
+        {
+            "id": 40,
+            "name": "reporter"
+        },
+        {
+            "id": 41,
+            "name": "make up artist"
+        },
+        {
+            "id": 42,
+            "name": "director"
+        },
+        {
+            "id": 43,
+            "name": "computer programmer"
+        },
+        {
+            "id": 44,
+            "name": "architect"
+        },
+        {
+            "id": 45,
+            "name": "optician"
+        },
+        {
+            "id": 46,
+            "name": "surgeon"
+        },
+        {
+            "id": 47,
+            "name": "astronomer"
+        },
+        {
+            "id": 48,
+            "name": "professional golf player"
+        },
+        {
+            "id": 49,
+            "name": "detective"
+        }
+    ],
+    "profession_city": [
+        {
+            "id": 1,
+            "label": "accountant",
+            "city": "Chișinău"
+        },
+        {
+            "id": 2,
+            "label": "actor",
+            "city": "Bălți"
+        },
+        {
+            "id": 3,
+            "label": "actress",
+            "city": "Orhei"
+        },
+        {
+            "id": 4,
+            "label": "air traffic controller",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 5,
+            "label": "architect",
+            "city": "Soroca"
+        },
+        {
+            "id": 6,
+            "label": "artist",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 7,
+            "label": "attorney",
+            "city": "Bender"
+        },
+        {
+            "id": 8,
+            "label": "banker",
+            "city": "Chișinău"
+        },
+        {
+            "id": 9,
+            "label": "bartender",
+            "city": "Bălți"
+        },
+        {
+            "id": 10,
+            "label": "barber",
+            "city": "Orhei"
+        },
+        {
+            "id": 11,
+            "label": "bookkeeper",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 12,
+            "label": "builder",
+            "city": "Soroca"
+        },
+        {
+            "id": 13,
+            "label": "businessman",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 14,
+            "label": "businesswoman",
+            "city": "Bender"
+        },
+        {
+            "id": 15,
+            "label": "businessperson",
+            "city": "Chișinău"
+        },
+        {
+            "id": 16,
+            "label": "butcher",
+            "city": "Bălți"
+        },
+        {
+            "id": 17,
+            "label": "carpenter",
+            "city": "Orhei"
+        },
+        {
+            "id": 18,
+            "label": "cashier",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 19,
+            "label": "chef",
+            "city": "Soroca"
+        },
+        {
+            "id": 20,
+            "label": "coach",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 21,
+            "label": "dental hygienist",
+            "city": "Bender"
+        },
+        {
+            "id": 22,
+            "label": "dentist",
+            "city": "Chișinău"
+        },
+        {
+            "id": 23,
+            "label": "designer",
+            "city": "Bălți"
+        },
+        {
+            "id": 24,
+            "label": "developer",
+            "city": "Orhei"
+        },
+        {
+            "id": 25,
+            "label": "dietician",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 26,
+            "label": "doctor",
+            "city": "Soroca"
+        },
+        {
+            "id": 27,
+            "label": "economist",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 28,
+            "label": "editor",
+            "city": "Bender"
+        },
+        {
+            "id": 29,
+            "label": "electrician",
+            "city": "Chișinău"
+        },
+        {
+            "id": 30,
+            "label": "engineer",
+            "city": "Bălți"
+        },
+        {
+            "id": 31,
+            "label": "farmer",
+            "city": "Orhei"
+        },
+        {
+            "id": 32,
+            "label": "filmmaker",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 33,
+            "label": "fisherman",
+            "city": "Soroca"
+        },
+        {
+            "id": 34,
+            "label": "flight attendant",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 35,
+            "label": "jeweler",
+            "city": "Bender"
+        },
+        {
+            "id": 36,
+            "label": "judge",
+            "city": "Chișinău"
+        },
+        {
+            "id": 37,
+            "label": "lawyer",
+            "city": "Bălți"
+        },
+        {
+            "id": 38,
+            "label": "mechanic",
+            "city": "Orhei"
+        },
+        {
+            "id": 39,
+            "label": "musician",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 40,
+            "label": "nutritionist",
+            "city": "Soroca"
+        },
+        {
+            "id": 41,
+            "label": "nurse",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 42,
+            "label": "optician",
+            "city": "Bender"
+        },
+        {
+            "id": 43,
+            "label": "painter",
+            "city": "Chișinău"
+        },
+        {
+            "id": 44,
+            "label": "pharmacist",
+            "city": "Bălți"
+        },
+        {
+            "id": 45,
+            "label": "photographer",
+            "city": "Orhei"
+        },
+        {
+            "id": 46,
+            "label": "physician",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 47,
+            "label": "physician's assistant",
+            "city": "Soroca"
+        },
+        {
+            "id": 48,
+            "label": "pilot",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 49,
+            "label": "plumber",
+            "city": "Bender"
+        },
+        {
+            "id": 50,
+            "label": "police officer",
+            "city": "Chișinău"
+        },
+        {
+            "id": 51,
+            "label": "politician",
+            "city": "Bălți"
+        },
+        {
+            "id": 52,
+            "label": "professor",
+            "city": "Orhei"
+        },
+        {
+            "id": 53,
+            "label": "programmer",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 54,
+            "label": "psychologist",
+            "city": "Soroca"
+        },
+        {
+            "id": 55,
+            "label": "receptionist",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 56,
+            "label": "salesman",
+            "city": "Bender"
+        },
+        {
+            "id": 57,
+            "label": "salesperson",
+            "city": "Chișinău"
+        },
+        {
+            "id": 58,
+            "label": "saleswoman",
+            "city": "Bălți"
+        },
+        {
+            "id": 59,
+            "label": "secretary",
+            "city": "Orhei"
+        },
+        {
+            "id": 60,
+            "label": "singer",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 61,
+            "label": "surgeon",
+            "city": "Soroca"
+        },
+        {
+            "id": 62,
+            "label": "teacher",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 63,
+            "label": "therapist",
+            "city": "Bender"
+        },
+        {
+            "id": 64,
+            "label": "translator",
+            "city": "Chișinău"
+        },
+        {
+            "id": 65,
+            "label": "translator",
+            "city": "Bălți"
+        },
+        {
+            "id": 66,
+            "label": "undertaker",
+            "city": "Orhei"
+        },
+        {
+            "id": 67,
+            "label": "veterinarian",
+            "city": "Tiraspol"
+        },
+        {
+            "id": 68,
+            "label": "videographer",
+            "city": "Soroca"
+        },
+        {
+            "id": 69,
+            "label": "waiter",
+            "city": "Nisporeni"
+        },
+        {
+            "id": 70,
+            "label": "waitress",
+            "city": "Bender"
+        },
+        {
+            "id": 71,
+            "label": "writer",
+            "city": "Chișinău"
+        }
+    ]
+}
