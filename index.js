@@ -77,6 +77,11 @@ function stringParam(params, paramName) {
 
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
+app.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 
 app.get('/', (req, res) => {
     res.send(homePage);
@@ -164,7 +169,7 @@ app.get('/form-data', async (req, res) => {
 });
 
 app.get('/ping', async (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
+    res.setHeader('Access-Control-Allow-Origin', '*');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -174,7 +179,7 @@ app.get('/ping', async (req, res) => {
 
     // Set to true if you need the website to include cookies in the requests sent
     // to the API (e.g. in case you use sessions)
-    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Credentials', false);
     res.send({message: 'success'});
 });
 
