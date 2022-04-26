@@ -31,15 +31,32 @@ function getProfessionByVariant(data, variant) {
     return result;
 }
 
+function replaceDiacritics(str) {
+    return str
+        .replaceAll('ș', 's')
+        .replaceAll('ț', 't')
+        .replaceAll('î', 'i')
+        .replaceAll('â', 'a')
+        .replaceAll('ă', 'a')
+        ;
+}
+
 function getProfessionCityByVariant(data, variant, city) {
     const parity = variant % 10;
-    let result = data.filter(item => item.id % parity === 0 && item.city.toLowerCase() === city.toLowerCase());
+    const searchData = data.map(item => ({...item, city: replaceDiacritics(item.city.toLowerCase())}));
+    city = replaceDiacritics(city.toLowerCase());
+    let result = searchData.filter(item => item.id % parity === 0 && item.city.toLowerCase() === city.toLowerCase());
 
     if (result.length < 6) {
-        return [...result, ...data.slice(0, 6)];
+        result = [...result, ...searchData.filter(item => item.city.toLowerCase() === city.toLowerCase()).slice(0, 6)];
     }
 
-    return result;
+    const final = [];
+    result.forEach(item => {
+        final.push(data.find(d => d.id === item.id));
+    });
+
+    return final;
 }
 
 function getJobNameByVariant(data, variant) {
@@ -117,7 +134,7 @@ app.get('/professions/:variant', (req, res) => {
     res.send(getProfessionByVariant(parsedData['profession'], req.params.variant));
 });
 
-app.get('/professions/:variant/city/:city', (req, res) => {
+app.get('/companies/:variant/city/:city', (req, res) => {
     const variant = intParam(req.params, 'variant');
     const city = stringParam(req.params, 'city');
     console.log({variant, city});
@@ -133,7 +150,7 @@ app.get('/professions/:variant/city/:city', (req, res) => {
         return;
     }
 
-    res.send(getProfessionCityByVariant(parsedData['profession_city'], req.params.variant, req.params.city));
+    res.send(getProfessionCityByVariant(parsedData['company_city'], variant, city));
 });
 
 app.get('/job-name/:variant', (req, res) => {

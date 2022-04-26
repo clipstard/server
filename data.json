@@ -517,361 +517,1231 @@
             "name": "detective"
         }
     ],
-    "profession_city": [
+    "company_city": [
         {
+            "city": "Chișinău",
+            "id": 0,
+            "label": "JSC Alimentarmash"
+        },
+        {
+            "city": "Bălți",
             "id": 1,
-            "label": "accountant",
-            "city": "Chișinău"
+            "label": "Edemixj"
         },
         {
+            "city": "Orhei",
             "id": 2,
-            "label": "actor",
-            "city": "Bălți"
+            "label": "SANGALIMED"
         },
         {
+            "city": "Tiraspol",
             "id": 3,
-            "label": "actress",
-            "city": "Orhei"
+            "label": "Colusvin SRL"
         },
         {
+            "city": "Soroca",
             "id": 4,
-            "label": "air traffic controller",
-            "city": "Tiraspol"
+            "label": "Firstline SRL IM"
         },
         {
+            "city": "Nisporeni",
             "id": 5,
-            "label": "architect",
-            "city": "Soroca"
+            "label": "Algeda-Ag"
         },
         {
+            "city": "Bender",
             "id": 6,
-            "label": "artist",
-            "city": "Nisporeni"
+            "label": "Import GNP Ltd"
         },
         {
+            "city": "Chișinău",
             "id": 7,
-            "label": "attorney",
-            "city": "Bender"
+            "label": "Balkan Pharmaceuticals"
         },
         {
+            "city": "Bălți",
             "id": 8,
-            "label": "banker",
-            "city": "Chișinău"
+            "label": "IM &quot;Selemtell&quot; SRL"
         },
         {
+            "city": "Orhei",
             "id": 9,
-            "label": "bartender",
-            "city": "Bălți"
+            "label": "Supramed Ltd."
         },
         {
+            "city": "Tiraspol",
             "id": 10,
-            "label": "barber",
-            "city": "Orhei"
+            "label": "Alcmion Ltd"
         },
         {
+            "city": "Soroca",
             "id": 11,
-            "label": "bookkeeper",
-            "city": "Tiraspol"
+            "label": "Moldagroproduct SRL"
         },
         {
+            "city": "Nisporeni",
             "id": 12,
-            "label": "builder",
-            "city": "Soroca"
+            "label": "Premium Profil SRL"
         },
         {
+            "city": "Bender",
             "id": 13,
-            "label": "businessman",
-            "city": "Nisporeni"
+            "label": "Voxted"
         },
         {
+            "city": "Chișinău",
             "id": 14,
-            "label": "businesswoman",
-            "city": "Bender"
+            "label": "Sc Dominus Deus SRL"
         },
         {
+            "city": "Bălți",
             "id": 15,
-            "label": "businessperson",
-            "city": "Chișinău"
+            "label": "ICS Moldova Zahar Srl"
         },
         {
+            "city": "Orhei",
             "id": 16,
-            "label": "butcher",
-            "city": "Bălți"
+            "label": "Altcom-Group"
         },
         {
+            "city": "Tiraspol",
             "id": 17,
-            "label": "carpenter",
-            "city": "Orhei"
+            "label": "Burianov"
         },
         {
+            "city": "Soroca",
             "id": 18,
-            "label": "cashier",
-            "city": "Tiraspol"
+            "label": "Best Ebuy Limited"
         },
         {
+            "city": "Nisporeni",
             "id": 19,
-            "label": "chef",
-            "city": "Soroca"
+            "label": "IGR Services"
         },
         {
+            "city": "Bender",
             "id": 20,
-            "label": "coach",
-            "city": "Nisporeni"
+            "label": "Dynamics Systems"
         },
         {
+            "city": "Chișinău",
             "id": 21,
-            "label": "dental hygienist",
-            "city": "Bender"
+            "label": "Erlan Ltd."
         },
         {
+            "city": "Bălți",
             "id": 22,
-            "label": "dentist",
-            "city": "Chișinău"
+            "label": "Srl Dalexi Pro"
         },
         {
+            "city": "Orhei",
             "id": 23,
-            "label": "designer",
-            "city": "Bălți"
+            "label": "Arigona Grup S.R.L."
         },
         {
+            "city": "Tiraspol",
             "id": 24,
-            "label": "developer",
-            "city": "Orhei"
+            "label": "Milvi Ltd"
         },
         {
+            "city": "Soroca",
             "id": 25,
-            "label": "dietician",
-            "city": "Tiraspol"
+            "label": "Gropian SRL"
         },
         {
+            "city": "Nisporeni",
             "id": 26,
-            "label": "doctor",
-            "city": "Soroca"
+            "label": "RabGher"
         },
         {
+            "city": "Bender",
             "id": 27,
-            "label": "economist",
-            "city": "Nisporeni"
+            "label": "Baltik Trading Llc"
         },
         {
+            "city": "Chișinău",
             "id": 28,
-            "label": "editor",
-            "city": "Bender"
+            "label": "Abbe Virgil Media"
         },
         {
+            "city": "Bălți",
             "id": 29,
-            "label": "electrician",
-            "city": "Chișinău"
+            "label": "Braus Com LTD"
         },
         {
+            "city": "Orhei",
             "id": 30,
-            "label": "engineer",
-            "city": "Bălți"
+            "label": "DGG International SRL"
         },
         {
+            "city": "Tiraspol",
             "id": 31,
-            "label": "farmer",
-            "city": "Orhei"
+            "label": "Resan"
         },
         {
+            "city": "Soroca",
             "id": 32,
-            "label": "filmmaker",
-            "city": "Tiraspol"
+            "label": "V.S. Export"
         },
         {
+            "city": "Nisporeni",
             "id": 33,
-            "label": "fisherman",
-            "city": "Soroca"
+            "label": "Pegza Group"
         },
         {
+            "city": "Bender",
             "id": 34,
-            "label": "flight attendant",
-            "city": "Nisporeni"
+            "label": "Tatitan&amp;Co Srl"
         },
         {
+            "city": "Chișinău",
             "id": 35,
-            "label": "jeweler",
-            "city": "Bender"
+            "label": "Algora"
         },
         {
+            "city": "Bălți",
             "id": 36,
-            "label": "judge",
-            "city": "Chișinău"
+            "label": "Policontract LTD"
         },
         {
+            "city": "Orhei",
             "id": 37,
-            "label": "lawyer",
-            "city": "Bălți"
+            "label": "Adm-demetra"
         },
         {
+            "city": "Tiraspol",
             "id": 38,
-            "label": "mechanic",
-            "city": "Orhei"
+            "label": "Centrex Super Products LLC"
         },
         {
+            "city": "Soroca",
             "id": 39,
-            "label": "musician",
-            "city": "Tiraspol"
+            "label": "JSC Floarea Soarelui"
         },
         {
+            "city": "Nisporeni",
             "id": 40,
-            "label": "nutritionist",
-            "city": "Soroca"
+            "label": "Denyell"
         },
         {
+            "city": "Bender",
             "id": 41,
-            "label": "nurse",
-            "city": "Nisporeni"
+            "label": "Axeronix"
         },
         {
+            "city": "Chișinău",
             "id": 42,
-            "label": "optician",
-            "city": "Bender"
+            "label": "Melidan-Impex SRL"
         },
         {
+            "city": "Bălți",
             "id": 43,
-            "label": "painter",
-            "city": "Chișinău"
+            "label": "API Winery"
         },
         {
+            "city": "Orhei",
             "id": 44,
-            "label": "pharmacist",
-            "city": "Bălți"
+            "label": "MoldElektronicsSRL"
         },
         {
+            "city": "Tiraspol",
             "id": 45,
-            "label": "photographer",
-            "city": "Orhei"
+            "label": "Neocasa SRL"
         },
         {
+            "city": "Soroca",
             "id": 46,
-            "label": "physician",
-            "city": "Tiraspol"
+            "label": "S.A.Supraten"
         },
         {
+            "city": "Nisporeni",
             "id": 47,
-            "label": "physician's assistant",
-            "city": "Soroca"
+            "label": "Liftmontaj S.A."
         },
         {
+            "city": "Bender",
             "id": 48,
-            "label": "pilot",
-            "city": "Nisporeni"
+            "label": "Interprime"
         },
         {
+            "city": "Chișinău",
             "id": 49,
-            "label": "plumber",
-            "city": "Bender"
+            "label": "Andrei and Brothers"
         },
         {
+            "city": "Bălți",
             "id": 50,
-            "label": "police officer",
-            "city": "Chișinău"
+            "label": "Decorum-Vin Ltd"
         },
         {
+            "city": "Orhei",
             "id": 51,
-            "label": "politician",
-            "city": "Bălți"
+            "label": "Calateea Prod"
         },
         {
+            "city": "Tiraspol",
             "id": 52,
-            "label": "professor",
-            "city": "Orhei"
+            "label": "Pharmart Pick &amp; Pay Inc"
         },
         {
+            "city": "Soroca",
             "id": 53,
-            "label": "programmer",
-            "city": "Tiraspol"
+            "label": "OOO AVM INTER GRUP"
         },
         {
+            "city": "Nisporeni",
             "id": 54,
-            "label": "psychologist",
-            "city": "Soroca"
+            "label": "Medjis Grup Ltd."
         },
         {
+            "city": "Bender",
             "id": 55,
-            "label": "receptionist",
-            "city": "Nisporeni"
+            "label": "AgriMax-Impex SRL"
         },
         {
+            "city": "Chișinău",
             "id": 56,
-            "label": "salesman",
-            "city": "Bender"
+            "label": "Beekeepers"
         },
         {
+            "city": "Bălți",
             "id": 57,
-            "label": "salesperson",
-            "city": "Chișinău"
+            "label": "CP&quot;PRODCOOP&quot;"
         },
         {
+            "city": "Orhei",
             "id": 58,
-            "label": "saleswoman",
-            "city": "Bălți"
+            "label": "The Center Of Advanced Biological Technologies"
         },
         {
+            "city": "Tiraspol",
             "id": 59,
-            "label": "secretary",
-            "city": "Orhei"
+            "label": "CALATEEA"
         },
         {
+            "city": "Soroca",
             "id": 60,
-            "label": "singer",
-            "city": "Tiraspol"
+            "label": "Vladalina SRL"
         },
         {
+            "city": "Nisporeni",
             "id": 61,
-            "label": "surgeon",
-            "city": "Soroca"
+            "label": "S&amp;G Enterprises CO.LTD"
         },
         {
+            "city": "Bender",
             "id": 62,
-            "label": "teacher",
-            "city": "Nisporeni"
+            "label": "DC Berry Srl"
         },
         {
+            "city": "Chișinău",
             "id": 63,
-            "label": "therapist",
-            "city": "Bender"
+            "label": "CASALUX"
         },
         {
+            "city": "Bălți",
             "id": 64,
-            "label": "translator",
-            "city": "Chișinău"
+            "label": "CAAN SA"
         },
         {
+            "city": "Orhei",
             "id": 65,
-            "label": "translator",
-            "city": "Bălți"
+            "label": "Zernoff"
         },
         {
+            "city": "Tiraspol",
             "id": 66,
-            "label": "undertaker",
-            "city": "Orhei"
+            "label": "Onixess Co.Ltd"
         },
         {
+            "city": "Soroca",
             "id": 67,
-            "label": "veterinarian",
-            "city": "Tiraspol"
+            "label": "Righel SRL"
         },
         {
+            "city": "Nisporeni",
             "id": 68,
-            "label": "videographer",
-            "city": "Soroca"
+            "label": "LazariNet.Ltd"
         },
         {
+            "city": "Bender",
             "id": 69,
-            "label": "waiter",
-            "city": "Nisporeni"
+            "label": "Irida"
         },
         {
+            "city": "Chișinău",
             "id": 70,
-            "label": "waitress",
-            "city": "Bender"
+            "label": "TSBF International"
         },
         {
+            "city": "Bălți",
             "id": 71,
-            "label": "writer",
-            "city": "Chișinău"
+            "label": "Ghermes-Agroservice J.S.C."
+        },
+        {
+            "city": "Orhei",
+            "id": 72,
+            "label": "Gold Line - International"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 73,
+            "label": "Quick Ltd"
+        },
+        {
+            "city": "Soroca",
+            "id": 74,
+            "label": "Mochiru Ltd"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 75,
+            "label": "Levaro"
+        },
+        {
+            "city": "Bender",
+            "id": 76,
+            "label": "EcoBriquette LTD"
+        },
+        {
+            "city": "Chișinău",
+            "id": 77,
+            "label": "Costesti Vin SRL"
+        },
+        {
+            "city": "Bălți",
+            "id": 78,
+            "label": "AGROTAB"
+        },
+        {
+            "city": "Orhei",
+            "id": 79,
+            "label": "SC &quot;Transnordsud&quot; SRL"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 80,
+            "label": "Macura Export"
+        },
+        {
+            "city": "Soroca",
+            "id": 81,
+            "label": "TOC-GNP Group Ltd"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 82,
+            "label": "Altcom"
+        },
+        {
+            "city": "Bender",
+            "id": 83,
+            "label": "Skynod"
+        },
+        {
+            "city": "Chișinău",
+            "id": 84,
+            "label": "Marflex ltd"
+        },
+        {
+            "city": "Bălți",
+            "id": 85,
+            "label": "Sergiu"
+        },
+        {
+            "city": "Orhei",
+            "id": 86,
+            "label": "Tiaxim Grup Ltd."
+        },
+        {
+            "city": "Tiraspol",
+            "id": 87,
+            "label": "Salonix-Teh SRL"
+        },
+        {
+            "city": "Soroca",
+            "id": 88,
+            "label": "Peduculus SRL"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 89,
+            "label": "Getter Grup"
+        },
+        {
+            "city": "Bender",
+            "id": 90,
+            "label": "Alelus Grup SRL"
+        },
+        {
+            "city": "Chișinău",
+            "id": 91,
+            "label": "MironSupply SRL"
+        },
+        {
+            "city": "Bălți",
+            "id": 92,
+            "label": "Ecochimie SRL"
+        },
+        {
+            "city": "Orhei",
+            "id": 93,
+            "label": "Riatec S.R.L."
+        },
+        {
+            "city": "Tiraspol",
+            "id": 94,
+            "label": "Brenus Grup"
+        },
+        {
+            "city": "Soroca",
+            "id": 95,
+            "label": "ONGROCHIM"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 96,
+            "label": "UTE Ltd"
+        },
+        {
+            "city": "Bender",
+            "id": 97,
+            "label": "CST AVION SA."
+        },
+        {
+            "city": "Chișinău",
+            "id": 98,
+            "label": "Micom ltd"
+        },
+        {
+            "city": "Bălți",
+            "id": 99,
+            "label": "Natusana"
+        },
+        {
+            "city": "Orhei",
+            "id": 100,
+            "label": "Fares Alliance.Ltd"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 101,
+            "label": "Medstar Company"
+        },
+        {
+            "city": "Soroca",
+            "id": 102,
+            "label": "Zavas Raw Human Hair"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 103,
+            "label": "Adalet Consulting SRL"
+        },
+        {
+            "city": "Bender",
+            "id": 104,
+            "label": "Tutun-CTC"
+        },
+        {
+            "city": "Chișinău",
+            "id": 105,
+            "label": "Pronibur Ltd"
+        },
+        {
+            "city": "Bălți",
+            "id": 106,
+            "label": "Media Security"
+        },
+        {
+            "city": "Orhei",
+            "id": 107,
+            "label": "Mekki"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 108,
+            "label": "Canes SRL"
+        },
+        {
+            "city": "Soroca",
+            "id": 109,
+            "label": "Medani"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 110,
+            "label": "Profermservice SRL"
+        },
+        {
+            "city": "Bender",
+            "id": 111,
+            "label": "Aksav Group"
+        },
+        {
+            "city": "Chișinău",
+            "id": 112,
+            "label": "Zilant S.A."
+        },
+        {
+            "city": "Bălți",
+            "id": 113,
+            "label": "Moldovan Export Promotion Organization"
+        },
+        {
+            "city": "Orhei",
+            "id": 114,
+            "label": "Belarus Moldova Travel"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 115,
+            "label": "PROATLANT TRANS"
+        },
+        {
+            "city": "Soroca",
+            "id": 116,
+            "label": "soho outdoor"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 117,
+            "label": "I.I. &quot;UCRAINCIUC VITALIE&quot;"
+        },
+        {
+            "city": "Bender",
+            "id": 118,
+            "label": "Kavpen"
+        },
+        {
+            "city": "Chișinău",
+            "id": 119,
+            "label": "Vilmac Machine"
+        },
+        {
+            "city": "Bălți",
+            "id": 120,
+            "label": "Astorics"
+        },
+        {
+            "city": "Orhei",
+            "id": 121,
+            "label": "Premia Traders Ltd"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 122,
+            "label": "Marin-Chistruga"
+        },
+        {
+            "city": "Soroca",
+            "id": 123,
+            "label": "Jet-Set International Co."
+        },
+        {
+            "city": "Nisporeni",
+            "id": 124,
+            "label": "A&amp;I Trade Group"
+        },
+        {
+            "city": "Bender",
+            "id": 125,
+            "label": "MICROFACT"
+        },
+        {
+            "city": "Chișinău",
+            "id": 126,
+            "label": "Valvcom"
+        },
+        {
+            "city": "Bălți",
+            "id": 127,
+            "label": "Lucky Stone"
+        },
+        {
+            "city": "Orhei",
+            "id": 128,
+            "label": "Dioartis Grup SRL"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 129,
+            "label": "EuroPlastics.ru"
+        },
+        {
+            "city": "Soroca",
+            "id": 130,
+            "label": "IM Standard-Cert SRL"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 131,
+            "label": "Suatocom"
+        },
+        {
+            "city": "Bender",
+            "id": 132,
+            "label": "ecopas-plus srl"
+        },
+        {
+            "city": "Chișinău",
+            "id": 133,
+            "label": "Mihail Konstantinovic"
+        },
+        {
+            "city": "Bălți",
+            "id": 134,
+            "label": "Agro-Fields"
+        },
+        {
+            "city": "Orhei",
+            "id": 135,
+            "label": "ManAgro Group"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 136,
+            "label": "Walnutsales"
+        },
+        {
+            "city": "Soroca",
+            "id": 137,
+            "label": "URS Grafics Srl"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 138,
+            "label": "Zorile SA"
+        },
+        {
+            "city": "Bender",
+            "id": 139,
+            "label": "Allendale Limited"
+        },
+        {
+            "city": "Chișinău",
+            "id": 140,
+            "label": "Nardy"
+        },
+        {
+            "city": "Bălți",
+            "id": 141,
+            "label": "DGG International"
+        },
+        {
+            "city": "Orhei",
+            "id": 142,
+            "label": "Videosecurity"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 143,
+            "label": "Metal Imports (London) Limited"
+        },
+        {
+            "city": "Soroca",
+            "id": 144,
+            "label": "Amfiss SRL"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 145,
+            "label": "Fidel Group"
+        },
+        {
+            "city": "Bender",
+            "id": 146,
+            "label": "OOO TIK &quot;Privat&quot;"
+        },
+        {
+            "city": "Chișinău",
+            "id": 147,
+            "label": "Asierto"
+        },
+        {
+            "city": "Bălți",
+            "id": 148,
+            "label": "TARCANI SRL"
+        },
+        {
+            "city": "Orhei",
+            "id": 149,
+            "label": "Artuak"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 150,
+            "label": "Ital Automation Systems S.r.l."
+        },
+        {
+            "city": "Soroca",
+            "id": 151,
+            "label": "Prodaus&amp;Co LTD"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 152,
+            "label": "Naxin"
+        },
+        {
+            "city": "Bender",
+            "id": 153,
+            "label": "Minerul"
+        },
+        {
+            "city": "Chișinău",
+            "id": 154,
+            "label": "GTS HOLDING"
+        },
+        {
+            "city": "Bălți",
+            "id": 155,
+            "label": "Alvisedo-impex Ltd"
+        },
+        {
+            "city": "Orhei",
+            "id": 156,
+            "label": "Agresca"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 157,
+            "label": "Confege SRL"
+        },
+        {
+            "city": "Soroca",
+            "id": 158,
+            "label": "Ozonteh Impex SRL"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 159,
+            "label": "Gbc Srl"
+        },
+        {
+            "city": "Bender",
+            "id": 160,
+            "label": "pixinfly"
+        },
+        {
+            "city": "Chișinău",
+            "id": 161,
+            "label": "Anevgrup SRL"
+        },
+        {
+            "city": "Bălți",
+            "id": 162,
+            "label": "Pro-mezcer"
+        },
+        {
+            "city": "Orhei",
+            "id": 163,
+            "label": "Terentiev-Benefis-Art LTD"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 164,
+            "label": "JMA Co., Ltd"
+        },
+        {
+            "city": "Soroca",
+            "id": 165,
+            "label": "Nord-Centru Grup"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 166,
+            "label": "AWM Yachting"
+        },
+        {
+            "city": "Bender",
+            "id": 167,
+            "label": "HONIG-SEKTOR SRL"
+        },
+        {
+            "city": "Chișinău",
+            "id": 168,
+            "label": "Cuptorul Fermecat SRL"
+        },
+        {
+            "city": "Bălți",
+            "id": 169,
+            "label": "Sadro Ursu I.I."
+        },
+        {
+            "city": "Orhei",
+            "id": 170,
+            "label": "Constructie.Md"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 171,
+            "label": "nana firm"
+        },
+        {
+            "city": "Soroca",
+            "id": 172,
+            "label": "MolDan Service"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 173,
+            "label": "Diana Tofan"
+        },
+        {
+            "city": "Bender",
+            "id": 174,
+            "label": "mako trade zzo"
+        },
+        {
+            "city": "Chișinău",
+            "id": 175,
+            "label": "Actis-Int LTD"
+        },
+        {
+            "city": "Bălți",
+            "id": 176,
+            "label": "Simplextrans"
+        },
+        {
+            "city": "Orhei",
+            "id": 177,
+            "label": "Arhiconi-Grup Ltd"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 178,
+            "label": "Liovra Ltd"
+        },
+        {
+            "city": "Soroca",
+            "id": 179,
+            "label": "Inet Tehno S.R.L"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 180,
+            "label": "VV Company L.T.D."
+        },
+        {
+            "city": "Bender",
+            "id": 181,
+            "label": "GT''A.T.Cazacu"
+        },
+        {
+            "city": "Chișinău",
+            "id": 182,
+            "label": "Dorianis"
+        },
+        {
+            "city": "Bălți",
+            "id": 183,
+            "label": "Minunata Xenia"
+        },
+        {
+            "city": "Orhei",
+            "id": 184,
+            "label": "Blandumihai srl"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 185,
+            "label": "Exprescontainer srl"
+        },
+        {
+            "city": "Soroca",
+            "id": 186,
+            "label": "Allium Ursinum"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 187,
+            "label": "ExpresFrigofruct"
+        },
+        {
+            "city": "Bender",
+            "id": 188,
+            "label": "RIGAB-D"
+        },
+        {
+            "city": "Chișinău",
+            "id": 189,
+            "label": "GOSTMD"
+        },
+        {
+            "city": "Bălți",
+            "id": 190,
+            "label": "Macaz Grup S.R.L."
+        },
+        {
+            "city": "Orhei",
+            "id": 191,
+            "label": "Mihailov Diana"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 192,
+            "label": "Carion"
+        },
+        {
+            "city": "Soroca",
+            "id": 193,
+            "label": "Agrotab SRL"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 194,
+            "label": "Cazmo-trans"
+        },
+        {
+            "city": "Bender",
+            "id": 195,
+            "label": "The Business Centre of Moldova"
+        },
+        {
+            "city": "Chișinău",
+            "id": 196,
+            "label": "Saturn Group Ltd."
+        },
+        {
+            "city": "Bălți",
+            "id": 197,
+            "label": "Crisco LTD"
+        },
+        {
+            "city": "Orhei",
+            "id": 198,
+            "label": "alitex-com"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 199,
+            "label": "goliat-vita"
+        },
+        {
+            "city": "Soroca",
+            "id": 200,
+            "label": "SC Blink Commercial Group SRL"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 201,
+            "label": "AgroKon Trading LTD"
+        },
+        {
+            "city": "Bender",
+            "id": 202,
+            "label": "PROFIT CONCOM"
+        },
+        {
+            "city": "Chișinău",
+            "id": 203,
+            "label": "SC CONLITMAS., LTD"
+        },
+        {
+            "city": "Bălți",
+            "id": 204,
+            "label": "Alexandru Vlas"
+        },
+        {
+            "city": "Orhei",
+            "id": 205,
+            "label": "MULTIVAL"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 206,
+            "label": "Ruthal Chem LTD"
+        },
+        {
+            "city": "Soroca",
+            "id": 207,
+            "label": "Organic-co S.R.L."
+        },
+        {
+            "city": "Nisporeni",
+            "id": 208,
+            "label": "SRL BOCAGROCON"
+        },
+        {
+            "city": "Bender",
+            "id": 209,
+            "label": "Europlastics"
+        },
+        {
+            "city": "Chișinău",
+            "id": 210,
+            "label": "Prometeu-T S. A."
+        },
+        {
+            "city": "Bălți",
+            "id": 211,
+            "label": "AGS Grup Ltd"
+        },
+        {
+            "city": "Orhei",
+            "id": 212,
+            "label": "BRAUS COM SRL"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 213,
+            "label": "Livada-servis srl"
+        },
+        {
+            "city": "Soroca",
+            "id": 214,
+            "label": "Marelin"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 215,
+            "label": "Acorex Wine Holding"
+        },
+        {
+            "city": "Bender",
+            "id": 216,
+            "label": "Interprana"
+        },
+        {
+            "city": "Chișinău",
+            "id": 217,
+            "label": "CEBROM-IMPEX"
+        },
+        {
+            "city": "Bălți",
+            "id": 218,
+            "label": "VICAM LTD"
+        },
+        {
+            "city": "Orhei",
+            "id": 219,
+            "label": "Blink Comercial Group"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 220,
+            "label": "LILCORA S.R.L."
+        },
+        {
+            "city": "Soroca",
+            "id": 221,
+            "label": "LCD-IMPEX"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 222,
+            "label": "Raolux"
+        },
+        {
+            "city": "Bender",
+            "id": 223,
+            "label": "Dialincom"
+        },
+        {
+            "city": "Chișinău",
+            "id": 224,
+            "label": "NiC OL SRL"
+        },
+        {
+            "city": "Bălți",
+            "id": 225,
+            "label": "TransProvision SRL"
+        },
+        {
+            "city": "Orhei",
+            "id": 226,
+            "label": "HILLCROFT"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 227,
+            "label": "LED-Light-AudioCompany"
+        },
+        {
+            "city": "Soroca",
+            "id": 228,
+            "label": "Rodital-Lux"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 229,
+            "label": "Olga Emelianova"
+        },
+        {
+            "city": "Bender",
+            "id": 230,
+            "label": "Agent Trade"
+        },
+        {
+            "city": "Chișinău",
+            "id": 231,
+            "label": "PALADI GUDVIN SRL"
+        },
+        {
+            "city": "Bălți",
+            "id": 232,
+            "label": "LKW ALEKS Spedition SRL"
+        },
+        {
+            "city": "Orhei",
+            "id": 233,
+            "label": "Natur Bravo S.A."
+        },
+        {
+            "city": "Tiraspol",
+            "id": 234,
+            "label": "Serlin-Com SRL"
+        },
+        {
+            "city": "Soroca",
+            "id": 235,
+            "label": "Moldagrotehnica SA"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 236,
+            "label": "Nasi Mako"
+        },
+        {
+            "city": "Bender",
+            "id": 237,
+            "label": "CREATIV CONCEPT"
+        },
+        {
+            "city": "Chișinău",
+            "id": 238,
+            "label": "Bioprotect Ltd."
+        },
+        {
+            "city": "Bălți",
+            "id": 239,
+            "label": "Azuzi Inc"
+        },
+        {
+            "city": "Orhei",
+            "id": 240,
+            "label": "Agrovika International Ltd"
+        },
+        {
+            "city": "Tiraspol",
+            "id": 241,
+            "label": "Dionysos Mereni"
+        },
+        {
+            "city": "Soroca",
+            "id": 242,
+            "label": "Life On Impex"
+        },
+        {
+            "city": "Nisporeni",
+            "id": 243,
+            "label": "Slimbody Inc."
+        },
+        {
+            "city": "Bender",
+            "id": 244,
+            "label": "Prointelgrup"
         }
     ]
 }

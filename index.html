@@ -10,22 +10,36 @@
 <h3>
     This a simple server to help you to complete 4th homework.
 </h3>
+<h2>Introduceti varianta: <input type="text" id="variant_input"></h2>
+<h5>
+    Selectati oras:
+    <select id="city_input">
+        <option value="{city}">{city}</option>
+        <option value="Chișinău">Chișinău</option>
+        <option value="Bălți">Bălți</option>
+        <option value="Orhei">Orhei</option>
+        <option value="Tiraspol">Tiraspol</option>
+        <option value="Soroca">Soroca</option>
+        <option value="Nisporeni">Nisporeni</option>
+        <option value="Bender">Bender</option>
+    </select>
+</h5>
 <ul>
     <li>
         <h3 class="d-inline-block mb-1 mr-2"><span class="badge badge-info">GET</span></h3>
-        <a href="http://localhost:${port}/professions/{varianta}">http://localhost:${port}/professions/{varianta}</a>
+        <a href="http://localhost:${port}/professions/{varianta}" id="professions"></a>
     </li>
     <li>
         <h3 class="d-inline-block mb-1 mr-2"><span class="badge badge-info">GET</span></h3>
-        <a href="http://localhost:${port}/education-type/{varianta}">http://localhost:${port}/education-type/{varianta}</a>
+        <a href="http://localhost:${port}/education-type/{varianta}" id="education-type"></a>
     </li>
     <li>
         <h3 class="d-inline-block mb-1 mr-2"><span class="badge badge-info">GET</span></h3>
-        <a href="http://localhost:${port}/job-name/{varianta}">http://localhost:${port}/job-name/{varianta}</a>
+        <a href="http://localhost:${port}/job-name/{varianta}" id="job-name"></a>
     </li>
     <li>
         <h3 class="d-inline-block mb-1 mr-2"><span class="badge badge-info">GET</span></h3>
-        <a href="http://localhost:${port}/professions/{varianta}/city/{city}">http://localhost:${port}/professions/{varianta}/city/{city}</a>
+        <a href="http://localhost:${port}/companies/{varianta}/city/{city}" id="companies-city"></a>
     </li>
     <li>
         <h3 class="d-inline-block mb-1 mr-2"><span class="badge badge-info">GET</span></h3>
@@ -36,5 +50,60 @@
         <a href="http://localhost:${port}/form-data">http://localhost:${port}/form-data</a>
     </li>
 </ul>
+<script>
+    var DEFAULT_VARIANT = '{varianta}';
+    var variant = DEFAULT_VARIANT;
+    const variant_input = document.getElementById('variant_input');
+    const city_input = document.getElementById('city_input');
+    const professions = document.getElementById('professions');
+    const educationType = document.getElementById('education-type');
+    const companiesCity = document.getElementById('companies-city');
+    const jobName = document.getElementById('job-name');
+    var professionLink = professions.getAttribute('href');
+    var educationTypeLink = educationType.getAttribute('href');
+    var companiesCityLink = companiesCity.getAttribute('href');
+    var jobNameLink = jobName.getAttribute('href');
+
+    function replaceVariant(str, value) {
+        if (!value) {
+            value = DEFAULT_VARIANT;
+        }
+
+        return str.replaceAll('{varianta}', value);
+    }
+
+    function replaceCity(str, value) {
+        if (!value) {
+            value = '{city}';
+        }
+
+        return str.replaceAll('{city}', value);
+    }
+
+    function updateLink(link, ref) {
+        link.innerText = ref;
+        link.setAttribute('href', ref);
+        link.setAttribute('target', '_blank');
+    }
+
+    function updateAll() {
+        const val = variant_input.value;
+        updateLink(professions, replaceVariant(professionLink, val));
+        updateLink(educationType, replaceVariant(educationTypeLink, val));
+        updateLink(companiesCity, replaceVariant(companiesCityLink, val));
+        updateLink(companiesCity, replaceCity(companiesCity.innerText, city_input.value));
+        updateLink(jobName, replaceVariant(jobNameLink, val));
+    }
+
+    window.onload = function () {
+        updateAll();
+        variant_input.addEventListener('input', () => {
+            updateAll();
+        });
+        city_input.addEventListener('change', () => {
+            updateAll();
+        });
+    };
+</script>
 </body>
 </html>
