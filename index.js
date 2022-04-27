@@ -12,6 +12,10 @@ let formData;
 
 homePage = homePage.toString().replaceAll('${port}', port);
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
 function getEducationsByVariant(data, variant) {
     const result = data.filter((_, index) => index % 2 === variant % 2);
     if (result.length < 6) {
@@ -116,7 +120,9 @@ app.get('/education-type/:variant', (req, res) => {
         return;
     }
 
-    res.send(getEducationsByVariant(parsedData['education_type'], variant));
+    setTimeout(() => {
+        res.send(getEducationsByVariant(parsedData['education_type'], variant));
+    }, getRandomInt(1501));
 });
 
 app.get('/professions/:variant', (req, res) => {
@@ -131,7 +137,9 @@ app.get('/professions/:variant', (req, res) => {
         return;
     }
 
-    res.send(getProfessionByVariant(parsedData['profession'], req.params.variant));
+    setTimeout(() => {
+        res.send(getProfessionByVariant(parsedData['profession'], req.params.variant));
+    }, getRandomInt(1501));
 });
 
 app.get('/companies/:variant/city/:city', (req, res) => {
@@ -150,7 +158,9 @@ app.get('/companies/:variant/city/:city', (req, res) => {
         return;
     }
 
-    res.send(getProfessionCityByVariant(parsedData['company_city'], variant, city));
+    setTimeout(() => {
+        res.send(getProfessionCityByVariant(parsedData['company_city'], variant, city));
+    }, getRandomInt(1501));
 });
 
 app.get('/job-name/:variant', (req, res) => {
@@ -165,15 +175,19 @@ app.get('/job-name/:variant', (req, res) => {
         return;
     }
 
-    res.send(getJobNameByVariant(parsedData['job_name'], req.params.variant));
+    setTimeout(() => {
+        res.send(getJobNameByVariant(parsedData['job_name'], req.params.variant));
+    }, getRandomInt(1501));
 });
 
 app.post('/form-data', async (req, res) => {
     console.log(req.body);
-    formData = req.body;
-    res.send({
-        message: 'Successfully saved form data',
-    });
+    setTimeout(() => {
+        formData = req.body;
+        res.send({
+            message: 'Successfully saved form data',
+        });
+    }, getRandomInt(1501));
 });
 
 app.get('/form-data', async (req, res) => {
@@ -182,7 +196,10 @@ app.get('/form-data', async (req, res) => {
         return;
     }
 
-    res.send(formData);
+
+    setTimeout(() => {
+        res.send(formData);
+    }, getRandomInt(1501));
 });
 
 app.get('/ping', async (req, res) => {
