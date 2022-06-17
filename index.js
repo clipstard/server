@@ -96,6 +96,15 @@ function stringParam(params, paramName) {
     return variant;
 }
 
+const user = {
+    id: 1,
+    firstName: 'Eugeniu',
+    lastName: 'Nicolenco',
+    email: 'eugeniu.nicolenco@tekoway.com',
+    type: 'PERMANENT',
+    roles: ['ROLE_USER', 'ROLE_PERMANENT'],
+};
+
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
 app.use(function (req, res, next) {
@@ -178,6 +187,25 @@ app.get('/job-name/:variant', (req, res) => {
     setTimeout(() => {
         res.send(getJobNameByVariant(parsedData['job_name'], req.params.variant));
     }, getRandomInt(1501));
+});
+
+app.post('/login', async (req, res) => {
+    res.send({
+        token: Buffer.from(JSON.stringify(user)).toString('base64'), 
+    })
+});
+
+app.post('/reset-password', async (req, res) => {
+    res.send(true);
+});
+
+app.post('/set-password', async (req, res) => {
+    res.send(true);
+});
+
+
+app.get('/me', async (req, res) => {
+    res.send(user);
 });
 
 app.post('/form-data', async (req, res) => {
